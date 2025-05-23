@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Gujarat",
+    "placeName": "Gujarat",
+    "path": "/gujarat",
+    "description": "Gujarat is known for its vibrant culture, historic temples, and the white desert of Kutch.",
+    "image1": "/src/assets/Images/Gujarat/lion-515028_1280.jpg",
+    "image2": "/src/assets/Images/Gujarat/bird-4051495_1280.jpg",
+    "image3": "/src/assets/Images/Gujarat/istockphoto-486811554-1024x1024.jpg",
+    "image4": "/src/assets/Images/Gujarat/istockphoto-1128240818-1024x1024.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rajasthan",
+    "placeName": "Rajasthan",
+    "path": "/rajasthan",
+    "description": "Explore the royal forts, palaces, and the vast Thar Desert in Rajasthan.",
+    "image1": "src/assets/Images/Rajasthan/chittorgarh-7860987_1280.jpg",
+    "image2": "src/assets/Images/Rajasthan/hawa-mahal-6973938_1280.jpg",
+    "image3": "src/assets/Images/Rajasthan/india-3612588_1280.jpg",
+    "image4": "src/assets/Images/Rajasthan/tourist-3872458_1280.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Himachal",
+    "placeName": "Himachal",
+    "path": "/himachal",
+    "description": "Himachal Pradesh offers stunning Himalayan landscapes and serene hill stations.",
+    "image1": "src/assets/Images/Himachal/himachal-2847583_1280.jpg",
+    "image2": "src/assets/Images/Himachal/chandra-tal-2792123_1280.jpg",
+    "image3": "src/assets/Images/Himachal/dhauladhar-range-5036975_1280.jpg",
+    "image4": "src/assets/Images/Himachal/nature-4685851_1280.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kashmir",
+    "placeName": "Kashmir",
+    "path": "/kashmir",
+    "description": "Known as Paradise on Earth, Kashmir boasts scenic beauty, lakes, and gardens.",
+    "image1": "src/assets/Images/Kashmir/game-of-thrones-4917988_1280.jpg",
+    "image2": "src/assets/Images/Kashmir/beautiful-pakistan-2727048_1280.jpg",
+    "image3": "src/assets/Images/Kashmir/mountains-4808137_1280.jpg",
+    "image4": "src/assets/Images/Kashmir/mountains-6740498_1280.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kerala",
+    "placeName": "Kerala",
+    "path": "/kerala",
+    "description": "Kerala is famous for its backwaters, beaches, and lush greenery.",
+    "image1": "src/assets/Images/Kerala/hut-7032759_1280.jpg",
+    "image2": "src/assets/Images/Kerala/alleppey-2817032_1280.jpg",
+    "image3": "src/assets/Images/Kerala/elephant-5449385_1280.jpg",
+    "image4": "src/assets/Images/Kerala/kerala-5367172_1280.jpg"
+  }
+]
