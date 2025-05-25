@@ -1,21 +1,29 @@
 <template>
 <nav>
-    <div class="logo">
-      <h1>Explore India 🌍</h1>
+    <div class="logo"  >
+        <router-link  :to="{name: 'Home'}" > <h1>Explore India 🌍</h1> </router-link> 
     </div>
-    <div class="nav-links">
-      <router-link to="/">Home</router-link>
-      <router-link to="/gujarat">Gujarat</router-link>
-      <router-link to="/rajasthan">Rajasthan</router-link>
-      <router-link to="/himachal">Himachal</router-link>
-      <router-link to="/kashmir">Kashmir</router-link>
-      <router-link to="/kerala">Kerala</router-link>
-      <router-link to="/about">About</router-link>
+    <div class="nav-links" >
+      <router-link  :to='{name: "destination.show" , params:{Destinationid: destionation.id  }}'  v-for="destionation in destinations" >{{ destionation.name }}</router-link>
     </div>
   </nav>
 
 
 </template>
+
+<script>
+import SourceData from '/src/Data.json'
+
+export default{
+  data(){
+    return{
+        destinations : SourceData
+    }
+  }
+}
+
+</script>
+
 
 <style scoped>
 nav {

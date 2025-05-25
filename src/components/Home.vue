@@ -3,7 +3,7 @@
     <h1>Explore Beautiful Destinations</h1>
   </div>
   <div class="destination">
-    <router-link  :to="destination.name"    class="card" v-for="destination in destinations" :key="destination.placeName">
+    <router-link  :to="{name:'destination.show', params:{Destinationid: destination.id }}"   class="card" v-for="destination in destinations" :key="destination.placeName">
       <img :src="destination.image1" alt="Destination Image" />
       <div class="content">
         <h2>{{ destination.placeName }}</h2>
